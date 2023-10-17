@@ -1,7 +1,7 @@
 package controle;
 
-public class ParametrosInvalidosException extends Exception{
-    public ParametrosInvalidosException(String errorMessage) {
-        super(errorMessage);
+class ParametrosInvalidosException extends Exception {
+    public ParametrosInvalidosException(String message) {
+        super(message);
     }
 }
